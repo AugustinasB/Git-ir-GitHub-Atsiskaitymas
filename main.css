@@ -17,12 +17,8 @@ body{
     font-family: Arial, sans-serif;
     letter-spacing: 3px;
     text-align: center;
-}
-
-#METAVERSE > p{
-    color:rgb(201, 201, 201);
-    font-size: 10px;
-    white-space: nowrap;
+    position: relative;
+    z-index:2;
 }
 
 img{
@@ -32,4 +28,26 @@ img{
     top: 0;
     left: 0;
     object-fit: cover;
+    z-index:0;
+}
+
+#METAVERSE > p{
+    color:rgb(201, 201, 201);
+    font-size: 10px;
+    white-space: nowrap;
+}
+
+nav{
+    color:white;
+    display: flex;
+    margin-top: 100px;
+}
+
+.INTRO, .WORK, .ABOUT, .CONTACT, nav p{
+    border: 2px solid white;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+    font-size: smaller;
+    letter-spacing: 2px;
+    padding: 20px 60px;
 }
