@@ -1,1 +1,0 @@
-# Git ir GitHub Atsiskaitymas
