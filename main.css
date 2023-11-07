@@ -4,6 +4,27 @@ body{
     overflow: hidden;
 }
 
+#headeris{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#METAVERSE{
+    color:white;
+    font-family: Arial, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#METAVERSE > p{
+    color:rgb(201, 201, 201);
+    font-size: 10px;
+    white-space: nowrap;
+}
+
 img{
     position: fixed;
     height:100%;
