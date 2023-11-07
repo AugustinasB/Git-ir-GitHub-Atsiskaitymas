@@ -1,22 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".button");
-    const cardText = document.querySelector(".card-text");
+    const cardContainer = document.querySelector(".card-container");
 
     buttons.forEach((button) => {
         button.style.cursor = "pointer";
-    });
-
-
-    buttons.forEach((button) => {
         button.addEventListener("click", function () {
-            const info = this.getAttribute("data-info");
-            cardText.textContent = info;
-            const cardContainer = document.getElementById("card");
-            cardContainer.style.display = "block";
+            cardContainer.style.display = "flex";
         });
     });
 
-    const cardContainer = document.getElementById("card");
     cardContainer.addEventListener("click", function () {
         cardContainer.style.display = "none";
     });
